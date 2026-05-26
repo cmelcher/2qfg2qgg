@@ -24,7 +24,7 @@ The file `Bilinear_2QFG2QGG_Final.py` reproduces the bilinear saddle point exper
 \frac{1}{2}\|C_2y-b_2\|^2.
 ```
 
-See the paper for more details on the problem construction. The code compares GDA, EG, and several GAPD variants for different choices of the parameter $\theta$. The methods are run for 10,000 iterations across three large problem dimensions:
+Where $C_1\in\mathbb{R}^{p\times\n},C_2\in\mathbb{R}^{q\times m}},A\in\mathbb{R}^{m\times n}, b_1\in\mathbb{R}^p, b_2\in\mathbb{R}^q$ with $p<n,q<m. See the paper for more details on the problem construction. The code compares GDA, EG, and several GAPD variants for different choices of the parameter $\theta$. The methods are run for 10,000 iterations across three large problem dimensions (n,m,p,q):
 
 ```text
 (900, 720, 540, 432)

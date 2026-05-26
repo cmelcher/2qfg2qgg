@@ -60,12 +60,7 @@ The output includes normalized residual plots for GDA, EG, and the GAPD variants
 
 ## Requirements
 
-The code uses Python 3 and the following packages:
-
-```text
-numpy
-matplotlib
-```
+The code uses Python 3 and requires the packages `numpy` and `matplotlib`. 
 
 ## License
 

@@ -16,8 +16,7 @@ NonBilinear_2QFG2QGG_Final.py
 The file `Bilinear_2QFG2QGG_Final.py` reproduces the bilinear saddle point experiment from Section 6.1 of the paper. It generates a rank-deficient quadratic convex-concave saddle point problem of the form
 
 ```math
-L(x,y)
-=
+\min_{x\in\mathbb{R}^n}\max_{y\in\mathbb{R}^m}
 \frac{1}{2}\|C_1x-b_1\|^2
 +
 \langle Ax,y\rangle

@@ -1,10 +1,8 @@
 # 2QFG and 2QGG Saddle Point Experiments
 
-Python code for the numerical section in the paper **"Linear Convergence of a Unified Primal-Dual Algorithm for Convex-Concave Saddle Point Problems with Quadratic Growth"**.
-
 ## Overview
 
-This repository contains code for the two main numerical experiments in Section 6 of the paper. The experiments compare several variants of the Generalized Accelerated Primal-Dual method (GAPD) with the baseline methods Gradient Descent-Ascent (GDA) and Extragradient (EG) on convex-concave saddle point problems satisfying two-sided quadratic functional growth (2QFG) and two-sided quadratic gradient growth (2QGG).
+This repository contains code for the two main numerical experiments in Section 6 of **"Linear Convergence of a Unified Primal-Dual Algorithm for Convex-Concave Saddle Point Problems with Quadratic Growth"**. The experiments compare several variants of the Generalized Accelerated Primal-Dual method (GAPD) with the baseline methods Gradient Descent-Ascent (GDA) and Extragradient (EG) on convex-concave saddle point problems satisfying two-sided quadratic functional growth (2QFG) and two-sided quadratic gradient growth (2QGG).
 
 The repository contains two main files:
 

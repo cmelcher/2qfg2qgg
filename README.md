@@ -48,7 +48,7 @@ The file `NonBilinear_2QFG2QGG_Final.py` reproduces the nonbilinear saddle point
 \sum_{i=1}^n b_i \rho(y_i),
 ```
 
-where $\rho$ is a convex polynomial function. See the paper for more details on the problem. The code compares GDA, EG, and several GAPD variants for different choices of the parameter $\theta$. The methods are run for 5,000 iterations across three problem dimensions, `n=1000,n=2000,n=5000`. The output includes normalized residual plots for GDA, EG, and the GAPD variants.
+where $\rho$ is a convex polynomial function and $R>0$. See the paper for more details on the problem. The code compares GDA, EG, and several GAPD variants for different choices of the parameter $\theta$. The methods are run for 5,000 iterations across three problem dimensions, `n=1000,n=2000,n=5000` with $R=2$. The output includes normalized residual plots for GDA, EG, and the GAPD variants.
 
 ## Requirements
 

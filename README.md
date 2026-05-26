@@ -64,7 +64,6 @@ The code uses Python 3 and the following packages:
 
 ```text
 numpy
-scipy
 matplotlib
 ```
 
